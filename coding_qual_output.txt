@@ -1,0 +1,2775 @@
+max_x= 50
+max_y= 30
+source_pos= (34, 17)
+sinks= [('P', 35, 3), ('Q', 7, 25), ('M', 13, 12), ('W', 22, 1), ('I', 21, 23), ('G', 47, 23), ('C', 30, 18), ('O', 47, 12), ('E', 47, 15), ('S', 47, 19), ('N', 31, 12), ('A', 31, 16), ('V', 12, 1), ('H', 9, 18), ('D', 35, 13), ('Z', 25, 8), ('X', 4, 20), ('J', 47, 4), ('L', 44, 18), ('T', 38, 17), ('U', 31, 9), ('Y', 48, 23), ('K', 22, 27)]
+  : 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 
+29: ╦ ╠ ╩ ╦ ╩ ╣ ║ ╦ ╣ ╗ ╦ ╩ ╠ ╠ ╠ ╦ ╦ ╦ ╠ ╦ ╠ ╣ ╩ ╩ ╩ ╦ ╩ ╦ ╦ ╠ ╩ ╦ ╠ ╦ ╦ ╩ ═ ╣ ╦   ╣ ╩ ╠ ╣ ╠ ╗ ╣ ╩ ╣ ╦ 
+28: ╩ ╣ ╦ ╦ ╚ ╔ ╦ ╦ ║ ╣ ╣ ╣ ╣ ╣ ╠ ╠ ╦ ╠ ╠ ╔ ╠ ╠ ╩ ╣ ╠ ╣ ╦ ╣ ╦ ╣ ╠ ╝ ╣ ═ ╠ ╣ ╠ ═ ╔ ╠ ╠ ║ ╣ ╠ ╣ ╦ ╩   ╩ ╦ 
+27: ╠ ╣ ╠ ╠ ═ ╩ ╦ ║ ╩ ╣ ╠ ╦ ╦ ╣ ╩ ╦ ╣ ╠ ╣ ╩ ╔ ╠ K ╣ ╣ ╠ ╦ ╠ ═ ╗ ╠ ╠ ╝ ╩ ╩ ╠ ╦ ╣ ╩ ╦ ╠ ╣ ╦ ╩ ═ ╩ ╣ ╦ ╔ ╣ 
+26: ╦ ╦ ╣ ╠ ╩ ╦ ╦ ╦ ╠ ╦ ╦ ╦ ╠ ╩ ╩ ╩ ╣ ╗ ╣ ╠ ╩ ╩ ╠ ╣ ╩ ╠ ╠ ╦ ═ ╠ ╦ ╩ ╚ ╩ ╦ ╣ ╦ ╦ ╣ ║ ╩ ╩ ═ ╦ ╦ ╩ ╣ ╣ ═ ╝ 
+25: ╠ ╔ ╣ ╣ ║ ╠ ╗ Q ╩ ╦ ╩ ╚ ╠ ╚ ╦ ╦ ╔ ╣ ╠ ╦ ╠ ╩ ╠ ╩ ╣ ╣ ╦ ╝ ╦ ╠ ║ ╩ ╠ ╦ ╣ ╣ ╠ ╩ ╩ ╩ ╩ ╔ ╠ ╠ ╦ ╚ ╦ ╣ ╠ ╠ 
+24: ╦ ╦ ╣ ╠ ╠ ╠ ╣ ╣ ╣ ╣ ╦ ╦ ═ ╩ ╦ ╣ ╦ ╣ ╠ ╣ ╣ ╣ ╠ ╠ ╗ ╝ ╩ ╩ ╦ ║ ╦ ═ ╦ ╣ ╣ ╠ ╠ ╩ ╔ ╩ ╩ ╚ ╠ ╠ ╩ ║ ╣ ╣ ╦ ╣ 
+23: ═ ╚ ╠ ╩ ╠ ╩ ╦ ╣ ╣ ║ ╠ ╣ ╩ ╦ ╣ ╠ ╩ ╠ ╦ ╠ ═ I ╗ ╠ ╝ ╚ ╠ ╠ ╠ ╦ ╠ ╣ ╦ ╣ ╦ ╣ ╣ ╠ ╦ ╠ ╣ ╠ ╦ ╦ ╠ ╠ ╦ G Y ╝ 
+22: ╣ ╣ ╠ ╠ ╣ ╣ ╣ ╠ ╩ ╩ ╩ ╦ ╠ ╚ ╠ ╩ ╠ ╦ ╩ ╩ ╣ ╦ ╩ ╠ ╦ ╦ ╠ ╣ ═ ╩ ╩ ║ ╦ ╩ ═ ╩ ╩ ╣ ╣ ╦ ╩ ╩ ╣ ╣ ╩ ╩ ╩ ╦ ╠ ╠ 
+21: ╠ ║ ╩ ╠ ╦ ╝ ╝ ╦ ╣   ║ ╣ ╩ ╩ ╣ ╚ ╦ ╦ ╦ ╦ ╔ ╩ ╦ ╩ ╠ ╣ ╦ ╣ ╣ ╠ ╩ ╦ ╩ ╦ ╠ ╩ ╦ ╦ ╠ ╠ ╩ ╠ ╚ ╣ ╦ ╗ ╦ ╠ ╣ ╣ 
+20: ╠   ╦ ╠ X ╦   ║ ╦ ╦ ═ ╣ ╩ ╠ ╝ ╣ ╩ ╣ ╩ ╩ ╩ ╦ ╠ ╩ ╣ ╩ ╚ ╦ ╦ ╩ ╣ ╠ ╩ ═ ╩ ╠ ╣ ╝ ╩   ╩ ╠ ╩ ╣ ╣ ╦ ╦ ╦ ╩ ╦ 
+19: ╣ ═ ╠ ╝ ╠ ╦ ╩ ╦ ╩ ╩ ╩ ╠ ╣ ╦ ╦ ╣ ╠ ╦ ╣ ╩ ╠ ╩ ╦   ╦ ╩ ╣ ║ ═ ╩ ╩ ╠ ╠ ╣ ╩ ╣ ╩ ╦ ╔ ╩ ╩ ╩ ╩ ╠ ╩ ╣ ║ S ╠ ╠ 
+18: ╩ ╔ ╦ ╦ ╠ ╦ ╠ ╣ ╠ H ╠ ╠ ╦ ╣ ╩ ║ ╠ ╦ ╠ ╦   ╩ ╣ ╦ ╦ ╩ ╣ ╦ ╣ ╚ C ╩ ╩ ╠ ╣ ╦ ╣ ╦ ╝ ╣ ╣ ╦ ╩ ╠ L ╠ ╦ ╩ ╣ ╩ 
+17: ╝ ╠ ╦ ╦ ╣ ╩ ╦ ╣ ╩ ╦ ╩ ╩ ═ ╩ ╦ ╠ ╠ ╔ ╦ ╠ ╠ ╦ ═ ╩ ╠ ╠ ╠ ╣ ╠ ╠   ╠ ╠ ╩ * ╦ ╝ ╣ T ╣ ╦ ╠ ╠ ╠ ╦ ╠ ╦ ╩ ╣ ╦ 
+16: ╠ ╣ ╩ ╔ ╦ ╠ ╩ ╣ ╣ ╣ ╠ ╩ ╦ ╩ ╣ ╦ ╩ ╣ ╩ ╩ ╦ ║ ╦ ╣ ═ ╩ ╣ ╠ ╠ ╦ ╠ A ╝ ╣ ╝ ╩ ╦ ╠ ╦ ╣ ╠ ╦ ╠ ╣ ╩ ╠ ╚ ╩ ╠ ╩ 
+15: ╔ ╣ ╣ ╦ ╣ ╠ ╠ ╠ ╩   ╠ ╩ ═ ╩ ╗ ╗ ╣ ╠ ╩ ╠ ╠ ╠ ╠ ╣ ╠ ╦ ╩ ╠ ╠ ╣ ╠ ║ ╩ ╣ ╩ ╠ ╗   ╩ ╠ ╣ ╔ ╣ ╠ ╝ ╦ ╣ E ═ ╠ 
+14: ╝ ═ ╣ ╩ ╩ ╔ ╩ ╦ ╝ ╩ ╠   ╠ ╠ ╣ ╩ ╣ ╔ ╠ ╠ ╦   ╦ ╦ ╠ ╣ ╩ ╣ ╣ ╦ ╦ ╠ ╠ ╩ ╠ ╩ ╩ ╦ ╩ ╝ ╩ ╩ ║ ╣ ╣ ╦ ╠ ╦ ╠ ╠ 
+13: ╝ ╠ ╩ ╣ ╣ ╣ ╦ ╦ ╩ ╣ ╦ ╣ ╩ ╠ ╔ ╩ ╣ ╠ ╣ ╦ ╣ ╩ ╩ ╣ ╦   ╦ ╩ ╣ ╩ ╦ ╩ ╦ ╦ ╦ D ╦ ╠ ╩ ╠ ╦ ╦ ╠ ╩ ║ ╣ ╣ ╩ ╩ ╩ 
+12: ║ ╗ ╠ ╠ ╣ ╩ ║ ╣ ╠ ╣ ╠ ╠ ╦ M ╠ ╦ ╠ ╣ ╦ ╠ ╦ ╠ ╩ ╣ ╠ ╠ ╔ ╦ ╣ ╩ ╦ N ╩ ╔ ╦ ╝ ╩ ╦ ╦ ╣ ╣ ╩ ╣ ╦ ╩ ╠ ╠ O ╝ ╗ 
+11: ╣ ═ ╩ ╠ ╦ ╦ ║ ╠ ╩ ╦ ╩ ╦ ╠ ╠ ╩ ╠ ╦ ╗ ╩ ║ ╩ ╦   ╔ ╩ ╗ ╣ ╠ ╚ ╣ ╦ ╠ ╠ ╠ ╦ ╔ ╗ ╩ ╣ ╚ ╦ ╩ ╔ ╠ ╠ ╣ ╔ ╩ ╝ ╠ 
+10: ╦ ╣ ╗ ╣ ╠ ╔ ╣ ╠ ╦ ╣ ╩ ╦ ╦ ╗ ╦ ╦ ╣ ╦ ╠ ╩ ╦ ╩ ╦ ╦   ╩ ╚ ╣   ╠ ╦ ╣ ╠ ╣ ╠ ╠ ╦ ╩ ╠ ╩ ╗ ╩ ╩ ╠ ╩ ╩ ╦ ╩ ╣ ╩ 
+ 9: ╠ ╠ ╦ ╝ ╔ ╠ ╝ ╩ ╩ ╦ ╠ ╣ ║ ╦ ╠ ╠ ╚ ═ ╦ ╔ ╦ ╣ ╦ ╣ ╦ ╠ ╠ ╦ ╩ ╣ ╣ U ╠ ╠ ╠ ╩ ╦ ╣ ╔ ╠ ╠ ╩ ╦ ╩ ╠ ╩ ╦ ╩ ╣ ╣ 
+ 8: ╝ ╩ ╩ ╝ ╩ ╦ ╦ ╣ ╦ ╦ ╣ ╠ ╔ ╩ ╦ ╩ ╩ ╩ ╔ ╣ ╣ ╣ ╦ ╠ ╠ Z ╣ ╩ ╩ ╦ ╠ ╦ ╩ ╠ ╩ ╣ ╣ ╠ ╣ ╦ ╩ ╦ ╦ ╩ ╝ ╣ ╦ ╣ ╔ ╠ 
+ 7: ╩ ╚ ╩ ╠ ╣ ╩ ╠ ╠ ╣ ╝ ╩ ╔ ╔ ╠ ╚ ╣ ╠ ╣ ╩ ╦ ╦ ╣ ═ ╦ ╠ ╩ ╣ ╠ ╩ ╣ ╣ ╚ ╦ ╠ ╣ ╩ ╩ ╩ ╣ ╦ ║ ╦ ╩ ╣ ╣ ╠ ╠ ╣ ╩ ╩ 
+ 6: ╝ ╩ ╣ ╦ ╦ ╗ ╩ ╔ ╦ ╩ ╩ ═ ╩ ╠ ╠ ╩ ╠ ║ ╩ ╩ ╩ ╠ ║ ╩ ╠   ╣ ╦ ╦ ╦ ╣ ╦ ╩ ╦ ╣ ╚ ╦ ╣ ╦ ╦ ║ ╣ ╦ ╦ ╩ ╩ ╦ ╔ ╣ ╩ 
+ 5: ╠ ╩ ╔ ╣ ╠ ╩ ╠ ╩ ╣ ╠ ╦ ╦ ╣ ╦ ═ ╣ ╩ ║ ╠   ╩ ╩ ╔ ╔ ╣ ═ ╩ ╠ ╦ ╣ ╩ ╠ ╠ ╩ ╣ ╦ ╩ ╩ ╣ ╩ ╠ ╠ ╦ ║ ╠ ╣ ╦ ╦ ╣ ╩ 
+ 4: ╦ ╩   ║ ╦ ╩ ╩ ╦ ╠ ╩ ╩ ╠ ╩ ╣ ╠ ╩ ╦ ╩ ║ ╗ ╣ ╠ ╩ ╣ ╦ ╚ ╩ ╦ ╦ ╠ ╠ ╦ ╩ ╦ ╩ ╣ ╠ ╣ ╦ ╦ ╩ ╩ ╩ ╠ ╣ ╦ ╩ J ╣ ╣ 
+ 3: ╣ ╩ ╚ ║ ╣ ╔ ╣ ╠ ╦ ╣ ╠ ╣ ╠ ╩ ╣ ╠ ╠ ╠ ╣ ╩ ╦ ╦ ╣ ╩ ═ ║ ╣ ╩ ╠ ╣ ╗ ╣ ╣   ╠ P ╦ ╦ ╦ ╦ ╩ ╦ ═ ╣ ╣ ╠ ╠ ╠ ╦ ╔ 
+ 2: ╠ ╠ ╦ ╩ ╣ ╣ ╗ ╠ ╠ ╠ ╩ ╦ ╠ ╣ ╠ ╩ ╣ ╩ ╔ ╦ ╦   ╣ ╠ ╠ ╠ ╦ ╩ ╠ ╩ ╩ ╩ ╚ ╦ ╩ ╦ ╣ ╠ ╩ ╚ ╠ ╦ ╦ ╦ ╦ ╦ ╠ ╣ ╠ ╦ 
+ 1: ╦ ╣ ╩ ║ ╩ ╣   ╣ ╦ ╣ ╠ ╦ V ╣ ╣ ║ ╣ ╠ ╦ ╠ ╦ ╩ W ╩ ╣ ╣ ╦ ╠ ╩ ╦ ╩ ╠ ╣ ╣ ╣ ╣ ╣ ╝ ╚ ╠ ╦ ╝ ╠ ╩ ╣ ╠ ╣ ╩ ║ ╠ 
+ 0: ╩ ╦ ╩ ╠ ╠ ╩ ═ ═ ╩ ╩ ╣ ╝ ╝ ╩ ╣   ╣ ╣ ╩ ╠ ╦ ╩ ╦ ═ ╦ ╚ ╩ ╩ ╦ ╩ ╦ ╦ ╠ ╦ ╠ ╔ ╦ ╣ ╦ ╠ ╦ ╠ ╝ ╣ ╠ ╩ ╩ ╠ ╣ ╣ 
+[(34, 17)]
+
+Popped (cx,cy)=( 34 , 17 )
+grid[cx][cy]= *
+direction:  N
+(nx,ny)=( 34 , 16 )
+grid[nx][ny]= ╝
+this_direction= S this_cell= *
+direction:  S
+(nx,ny)=( 34 , 18 )
+grid[nx][ny]= ╣
+this_direction= N this_cell= *
+direction:  E
+(nx,ny)=( 33 , 17 )
+grid[nx][ny]= ╩
+this_direction= W this_cell= *
+direction:  W
+(nx,ny)=( 35 , 17 )
+grid[nx][ny]= ╦
+this_direction= E this_cell= *
+
+Popped (cx,cy)=( 35 , 17 )
+grid[cx][cy]= ╦
+direction:  N
+(nx,ny)=( 35 , 16 )
+grid[nx][ny]= ╩
+this_direction= S this_cell= ╦
+direction:  S
+(nx,ny)=( 35 , 18 )
+grid[nx][ny]= ╦
+this_direction= N this_cell= ╦
+direction:  E
+(nx,ny)=( 34 , 17 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 36 , 17 )
+grid[nx][ny]= ╝
+this_direction= E this_cell= ╦
+
+Popped (cx,cy)=( 36 , 17 )
+grid[cx][cy]= ╝
+direction:  N
+(nx,ny)=( 36 , 16 )
+grid[nx][ny]= ╦
+this_direction= S this_cell= ╝
+direction:  S
+(nx,ny)=( 36 , 18 )
+grid[nx][ny]= ╣
+this_direction= N this_cell= ╝
+direction:  E
+(nx,ny)=( 35 , 17 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 37 , 17 )
+grid[nx][ny]= ╣
+this_direction= E this_cell= ╝
+
+Popped (cx,cy)=( 36 , 18 )
+grid[cx][cy]= ╣
+direction:  N
+(nx,ny)=( 36 , 17 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 36 , 19 )
+grid[nx][ny]= ╩
+this_direction= N this_cell= ╣
+direction:  E
+(nx,ny)=( 35 , 18 )
+grid[nx][ny]= ╦
+this_direction= W this_cell= ╣
+direction:  W
+(nx,ny)=( 37 , 18 )
+grid[nx][ny]= ╦
+this_direction= E this_cell= ╣
+
+Popped (cx,cy)=( 35 , 18 )
+grid[cx][cy]= ╦
+direction:  N
+(nx,ny)=( 35 , 17 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 35 , 19 )
+grid[nx][ny]= ╣
+this_direction= N this_cell= ╦
+direction:  E
+(nx,ny)=( 34 , 18 )
+grid[nx][ny]= ╣
+this_direction= W this_cell= ╦
+direction:  W
+(nx,ny)=( 36 , 18 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 35 , 16 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 35 , 15 )
+grid[nx][ny]= ╠
+this_direction= S this_cell= ╩
+direction:  S
+(nx,ny)=( 35 , 17 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 34 , 16 )
+grid[nx][ny]= ╝
+this_direction= W this_cell= ╩
+direction:  W
+(nx,ny)=( 36 , 16 )
+grid[nx][ny]= ╦
+this_direction= E this_cell= ╩
+
+Popped (cx,cy)=( 36 , 16 )
+grid[cx][cy]= ╦
+direction:  N
+(nx,ny)=( 36 , 15 )
+grid[nx][ny]= ╗
+this_direction= S this_cell= ╦
+direction:  S
+(nx,ny)=( 36 , 17 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 35 , 16 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 37 , 16 )
+grid[nx][ny]= ╠
+this_direction= E this_cell= ╦
+
+Popped (cx,cy)=( 33 , 17 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 33 , 16 )
+grid[nx][ny]= ╣
+this_direction= S this_cell= ╩
+direction:  S
+(nx,ny)=( 33 , 18 )
+grid[nx][ny]= ╠
+this_direction= N this_cell= ╩
+direction:  E
+(nx,ny)=( 32 , 17 )
+grid[nx][ny]= ╠
+this_direction= W this_cell= ╩
+direction:  W
+(nx,ny)=( 34 , 17 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 32 , 17 )
+grid[cx][cy]= ╠
+direction:  N
+(nx,ny)=( 32 , 16 )
+grid[nx][ny]= ╝
+this_direction= S this_cell= ╠
+direction:  S
+(nx,ny)=( 32 , 18 )
+grid[nx][ny]= ╩
+this_direction= N this_cell= ╠
+direction:  E
+(nx,ny)=( 31 , 17 )
+grid[nx][ny]= ╠
+this_direction= W this_cell= ╠
+direction:  W
+(nx,ny)=( 33 , 17 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 32 , 16 )
+grid[cx][cy]= ╝
+direction:  N
+(nx,ny)=( 32 , 15 )
+grid[nx][ny]= ╩
+this_direction= S this_cell= ╝
+direction:  S
+(nx,ny)=( 32 , 17 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 31 , 16 )
+grid[nx][ny]= A
+direction:  W
+(nx,ny)=( 33 , 16 )
+grid[nx][ny]= ╣
+this_direction= E this_cell= ╝
+
+Popped (cx,cy)=( 33 , 18 )
+grid[cx][cy]= ╠
+direction:  N
+(nx,ny)=( 33 , 17 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 33 , 19 )
+grid[nx][ny]= ╣
+this_direction= N this_cell= ╠
+direction:  E
+(nx,ny)=( 32 , 18 )
+grid[nx][ny]= ╩
+this_direction= W this_cell= ╠
+direction:  W
+(nx,ny)=( 34 , 18 )
+grid[nx][ny]= ╣
+this_direction= E this_cell= ╠
+
+Popped (cx,cy)=( 34 , 18 )
+grid[cx][cy]= ╣
+direction:  N
+(nx,ny)=( 34 , 17 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 34 , 19 )
+grid[nx][ny]= ╩
+this_direction= N this_cell= ╣
+direction:  E
+(nx,ny)=( 33 , 18 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 35 , 18 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 33 , 19 )
+grid[cx][cy]= ╣
+direction:  N
+(nx,ny)=( 33 , 18 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 33 , 20 )
+grid[nx][ny]= ═
+this_direction= N this_cell= ╣
+direction:  E
+(nx,ny)=( 32 , 19 )
+grid[nx][ny]= ╠
+this_direction= W this_cell= ╣
+direction:  W
+(nx,ny)=( 34 , 19 )
+grid[nx][ny]= ╩
+this_direction= E this_cell= ╣
+
+Popped (cx,cy)=( 32 , 19 )
+grid[cx][cy]= ╠
+direction:  N
+(nx,ny)=( 32 , 18 )
+grid[nx][ny]= ╩
+this_direction= S this_cell= ╠
+direction:  S
+(nx,ny)=( 32 , 20 )
+grid[nx][ny]= ╩
+this_direction= N this_cell= ╠
+direction:  E
+(nx,ny)=( 31 , 19 )
+grid[nx][ny]= ╠
+this_direction= W this_cell= ╠
+direction:  W
+(nx,ny)=( 33 , 19 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 32 , 18 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 32 , 17 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 32 , 19 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 31 , 18 )
+grid[nx][ny]= ╩
+this_direction= W this_cell= ╩
+direction:  W
+(nx,ny)=( 33 , 18 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 31 , 18 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 31 , 17 )
+grid[nx][ny]= ╠
+this_direction= S this_cell= ╩
+direction:  S
+(nx,ny)=( 31 , 19 )
+grid[nx][ny]= ╠
+this_direction= N this_cell= ╩
+direction:  E
+(nx,ny)=( 30 , 18 )
+grid[nx][ny]= C
+direction:  W
+(nx,ny)=( 32 , 18 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 31 , 19 )
+grid[cx][cy]= ╠
+direction:  N
+(nx,ny)=( 31 , 18 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 31 , 20 )
+grid[nx][ny]= ╠
+this_direction= N this_cell= ╠
+direction:  E
+(nx,ny)=( 30 , 19 )
+grid[nx][ny]= ╩
+this_direction= W this_cell= ╠
+direction:  W
+(nx,ny)=( 32 , 19 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 31 , 20 )
+grid[cx][cy]= ╠
+direction:  N
+(nx,ny)=( 31 , 19 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 31 , 21 )
+grid[nx][ny]= ╦
+this_direction= N this_cell= ╠
+direction:  E
+(nx,ny)=( 30 , 20 )
+grid[nx][ny]= ╣
+this_direction= W this_cell= ╠
+direction:  W
+(nx,ny)=( 32 , 20 )
+grid[nx][ny]= ╩
+this_direction= E this_cell= ╠
+
+Popped (cx,cy)=( 32 , 20 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 32 , 19 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 32 , 21 )
+grid[nx][ny]= ╩
+this_direction= N this_cell= ╩
+direction:  E
+(nx,ny)=( 31 , 20 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 33 , 20 )
+grid[nx][ny]= ═
+this_direction= E this_cell= ╩
+
+Popped (cx,cy)=( 33 , 20 )
+grid[cx][cy]= ═
+direction:  N
+(nx,ny)=( 33 , 19 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 33 , 21 )
+grid[nx][ny]= ╦
+this_direction= N this_cell= ═
+direction:  E
+(nx,ny)=( 32 , 20 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 34 , 20 )
+grid[nx][ny]= ╩
+this_direction= E this_cell= ═
+
+Popped (cx,cy)=( 34 , 20 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 34 , 19 )
+grid[nx][ny]= ╩
+this_direction= S this_cell= ╩
+direction:  S
+(nx,ny)=( 34 , 21 )
+grid[nx][ny]= ╠
+this_direction= N this_cell= ╩
+direction:  E
+(nx,ny)=( 33 , 20 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 35 , 20 )
+grid[nx][ny]= ╠
+this_direction= E this_cell= ╩
+
+Popped (cx,cy)=( 34 , 21 )
+grid[cx][cy]= ╠
+direction:  N
+(nx,ny)=( 34 , 20 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 34 , 22 )
+grid[nx][ny]= ═
+this_direction= N this_cell= ╠
+direction:  E
+(nx,ny)=( 33 , 21 )
+grid[nx][ny]= ╦
+this_direction= W this_cell= ╠
+direction:  W
+(nx,ny)=( 35 , 21 )
+grid[nx][ny]= ╩
+this_direction= E this_cell= ╠
+
+Popped (cx,cy)=( 35 , 21 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 35 , 20 )
+grid[nx][ny]= ╠
+this_direction= S this_cell= ╩
+direction:  S
+(nx,ny)=( 35 , 22 )
+grid[nx][ny]= ╩
+this_direction= N this_cell= ╩
+direction:  E
+(nx,ny)=( 34 , 21 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 36 , 21 )
+grid[nx][ny]= ╦
+this_direction= E this_cell= ╩
+
+Popped (cx,cy)=( 36 , 21 )
+grid[cx][cy]= ╦
+direction:  N
+(nx,ny)=( 36 , 20 )
+grid[nx][ny]= ╣
+this_direction= S this_cell= ╦
+direction:  S
+(nx,ny)=( 36 , 22 )
+grid[nx][ny]= ╩
+this_direction= N this_cell= ╦
+direction:  E
+(nx,ny)=( 35 , 21 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 37 , 21 )
+grid[nx][ny]= ╦
+this_direction= E this_cell= ╦
+
+Popped (cx,cy)=( 37 , 21 )
+grid[cx][cy]= ╦
+direction:  N
+(nx,ny)=( 37 , 20 )
+grid[nx][ny]= ╝
+this_direction= S this_cell= ╦
+direction:  S
+(nx,ny)=( 37 , 22 )
+grid[nx][ny]= ╣
+this_direction= N this_cell= ╦
+direction:  E
+(nx,ny)=( 36 , 21 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 38 , 21 )
+grid[nx][ny]= ╠
+this_direction= E this_cell= ╦
+
+Popped (cx,cy)=( 37 , 20 )
+grid[cx][cy]= ╝
+direction:  N
+(nx,ny)=( 37 , 19 )
+grid[nx][ny]= ╦
+this_direction= S this_cell= ╝
+direction:  S
+(nx,ny)=( 37 , 21 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 36 , 20 )
+grid[nx][ny]= ╣
+this_direction= W this_cell= ╝
+direction:  W
+(nx,ny)=( 38 , 20 )
+grid[nx][ny]= ╩
+this_direction= E this_cell= ╝
+
+Popped (cx,cy)=( 36 , 20 )
+grid[cx][cy]= ╣
+direction:  N
+(nx,ny)=( 36 , 19 )
+grid[nx][ny]= ╩
+this_direction= S this_cell= ╣
+direction:  S
+(nx,ny)=( 36 , 21 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 35 , 20 )
+grid[nx][ny]= ╠
+this_direction= W this_cell= ╣
+direction:  W
+(nx,ny)=( 37 , 20 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 35 , 20 )
+grid[cx][cy]= ╠
+direction:  N
+(nx,ny)=( 35 , 19 )
+grid[nx][ny]= ╣
+this_direction= S this_cell= ╠
+direction:  S
+(nx,ny)=( 35 , 21 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 34 , 20 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 36 , 20 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 35 , 19 )
+grid[cx][cy]= ╣
+direction:  N
+(nx,ny)=( 35 , 18 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 35 , 20 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 34 , 19 )
+grid[nx][ny]= ╩
+this_direction= W this_cell= ╣
+direction:  W
+(nx,ny)=( 36 , 19 )
+grid[nx][ny]= ╩
+this_direction= E this_cell= ╣
+
+Popped (cx,cy)=( 34 , 19 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 34 , 18 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 34 , 20 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 33 , 19 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 35 , 19 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 36 , 19 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 36 , 18 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 36 , 20 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 35 , 19 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 37 , 19 )
+grid[nx][ny]= ╦
+this_direction= E this_cell= ╩
+
+Popped (cx,cy)=( 37 , 19 )
+grid[cx][cy]= ╦
+direction:  N
+(nx,ny)=( 37 , 18 )
+grid[nx][ny]= ╦
+this_direction= S this_cell= ╦
+direction:  S
+(nx,ny)=( 37 , 20 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 36 , 19 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 38 , 19 )
+grid[nx][ny]= ╔
+this_direction= E this_cell= ╦
+
+Popped (cx,cy)=( 31 , 21 )
+grid[cx][cy]= ╦
+direction:  N
+(nx,ny)=( 31 , 20 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 31 , 22 )
+grid[nx][ny]= ║
+this_direction= N this_cell= ╦
+direction:  E
+(nx,ny)=( 30 , 21 )
+grid[nx][ny]= ╩
+this_direction= W this_cell= ╦
+direction:  W
+(nx,ny)=( 32 , 21 )
+grid[nx][ny]= ╩
+this_direction= E this_cell= ╦
+
+Popped (cx,cy)=( 32 , 21 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 32 , 20 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 32 , 22 )
+grid[nx][ny]= ╦
+this_direction= N this_cell= ╩
+direction:  E
+(nx,ny)=( 31 , 21 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 33 , 21 )
+grid[nx][ny]= ╦
+this_direction= E this_cell= ╩
+
+Popped (cx,cy)=( 33 , 21 )
+grid[cx][cy]= ╦
+direction:  N
+(nx,ny)=( 33 , 20 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 33 , 22 )
+grid[nx][ny]= ╩
+this_direction= N this_cell= ╦
+direction:  E
+(nx,ny)=( 32 , 21 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 34 , 21 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 32 , 22 )
+grid[cx][cy]= ╦
+direction:  N
+(nx,ny)=( 32 , 21 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 32 , 23 )
+grid[nx][ny]= ╦
+this_direction= N this_cell= ╦
+direction:  E
+(nx,ny)=( 31 , 22 )
+grid[nx][ny]= ║
+this_direction= W this_cell= ╦
+direction:  W
+(nx,ny)=( 33 , 22 )
+grid[nx][ny]= ╩
+this_direction= E this_cell= ╦
+
+Popped (cx,cy)=( 33 , 22 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 33 , 21 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 33 , 23 )
+grid[nx][ny]= ╣
+this_direction= N this_cell= ╩
+direction:  E
+(nx,ny)=( 32 , 22 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 34 , 22 )
+grid[nx][ny]= ═
+this_direction= E this_cell= ╩
+
+Popped (cx,cy)=( 34 , 22 )
+grid[cx][cy]= ═
+direction:  N
+(nx,ny)=( 34 , 21 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 34 , 23 )
+grid[nx][ny]= ╦
+this_direction= N this_cell= ═
+direction:  E
+(nx,ny)=( 33 , 22 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 35 , 22 )
+grid[nx][ny]= ╩
+this_direction= E this_cell= ═
+
+Popped (cx,cy)=( 35 , 22 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 35 , 21 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 35 , 23 )
+grid[nx][ny]= ╣
+this_direction= N this_cell= ╩
+direction:  E
+(nx,ny)=( 34 , 22 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 36 , 22 )
+grid[nx][ny]= ╩
+this_direction= E this_cell= ╩
+
+Popped (cx,cy)=( 36 , 22 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 36 , 21 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 36 , 23 )
+grid[nx][ny]= ╣
+this_direction= N this_cell= ╩
+direction:  E
+(nx,ny)=( 35 , 22 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 37 , 22 )
+grid[nx][ny]= ╣
+this_direction= E this_cell= ╩
+
+Popped (cx,cy)=( 37 , 22 )
+grid[cx][cy]= ╣
+direction:  N
+(nx,ny)=( 37 , 21 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 37 , 23 )
+grid[nx][ny]= ╠
+this_direction= N this_cell= ╣
+direction:  E
+(nx,ny)=( 36 , 22 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 38 , 22 )
+grid[nx][ny]= ╣
+this_direction= E this_cell= ╣
+
+Popped (cx,cy)=( 37 , 23 )
+grid[cx][cy]= ╠
+direction:  N
+(nx,ny)=( 37 , 22 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 37 , 24 )
+grid[nx][ny]= ╩
+this_direction= N this_cell= ╠
+direction:  E
+(nx,ny)=( 36 , 23 )
+grid[nx][ny]= ╣
+this_direction= W this_cell= ╠
+direction:  W
+(nx,ny)=( 38 , 23 )
+grid[nx][ny]= ╦
+this_direction= E this_cell= ╠
+
+Popped (cx,cy)=( 38 , 23 )
+grid[cx][cy]= ╦
+direction:  N
+(nx,ny)=( 38 , 22 )
+grid[nx][ny]= ╣
+this_direction= S this_cell= ╦
+direction:  S
+(nx,ny)=( 38 , 24 )
+grid[nx][ny]= ╔
+this_direction= N this_cell= ╦
+direction:  E
+(nx,ny)=( 37 , 23 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 39 , 23 )
+grid[nx][ny]= ╠
+this_direction= E this_cell= ╦
+
+Popped (cx,cy)=( 38 , 22 )
+grid[cx][cy]= ╣
+direction:  N
+(nx,ny)=( 38 , 21 )
+grid[nx][ny]= ╠
+this_direction= S this_cell= ╣
+direction:  S
+(nx,ny)=( 38 , 23 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 37 , 22 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 39 , 22 )
+grid[nx][ny]= ╦
+this_direction= E this_cell= ╣
+
+Popped (cx,cy)=( 38 , 21 )
+grid[cx][cy]= ╠
+direction:  N
+(nx,ny)=( 38 , 20 )
+grid[nx][ny]= ╩
+this_direction= S this_cell= ╠
+direction:  S
+(nx,ny)=( 38 , 22 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 37 , 21 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 39 , 21 )
+grid[nx][ny]= ╠
+this_direction= E this_cell= ╠
+
+Popped (cx,cy)=( 38 , 20 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 38 , 19 )
+grid[nx][ny]= ╔
+this_direction= S this_cell= ╩
+direction:  S
+(nx,ny)=( 38 , 21 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 37 , 20 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 39 , 20 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 36 , 23 )
+grid[cx][cy]= ╣
+direction:  N
+(nx,ny)=( 36 , 22 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 36 , 24 )
+grid[nx][ny]= ╠
+this_direction= N this_cell= ╣
+direction:  E
+(nx,ny)=( 35 , 23 )
+grid[nx][ny]= ╣
+this_direction= W this_cell= ╣
+direction:  W
+(nx,ny)=( 37 , 23 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 36 , 24 )
+grid[cx][cy]= ╠
+direction:  N
+(nx,ny)=( 36 , 23 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 36 , 25 )
+grid[nx][ny]= ╠
+this_direction= N this_cell= ╠
+direction:  E
+(nx,ny)=( 35 , 24 )
+grid[nx][ny]= ╠
+this_direction= W this_cell= ╠
+direction:  W
+(nx,ny)=( 37 , 24 )
+grid[nx][ny]= ╩
+this_direction= E this_cell= ╠
+
+Popped (cx,cy)=( 37 , 24 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 37 , 23 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 37 , 25 )
+grid[nx][ny]= ╩
+this_direction= N this_cell= ╩
+direction:  E
+(nx,ny)=( 36 , 24 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 38 , 24 )
+grid[nx][ny]= ╔
+this_direction= E this_cell= ╩
+
+Popped (cx,cy)=( 36 , 25 )
+grid[cx][cy]= ╠
+direction:  N
+(nx,ny)=( 36 , 24 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 36 , 26 )
+grid[nx][ny]= ╦
+this_direction= N this_cell= ╠
+direction:  E
+(nx,ny)=( 35 , 25 )
+grid[nx][ny]= ╣
+this_direction= W this_cell= ╠
+direction:  W
+(nx,ny)=( 37 , 25 )
+grid[nx][ny]= ╩
+this_direction= E this_cell= ╠
+
+Popped (cx,cy)=( 37 , 25 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 37 , 24 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 37 , 26 )
+grid[nx][ny]= ╦
+this_direction= N this_cell= ╩
+direction:  E
+(nx,ny)=( 36 , 25 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 38 , 25 )
+grid[nx][ny]= ╩
+this_direction= E this_cell= ╩
+
+Popped (cx,cy)=( 38 , 25 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 38 , 24 )
+grid[nx][ny]= ╔
+this_direction= S this_cell= ╩
+direction:  S
+(nx,ny)=( 38 , 26 )
+grid[nx][ny]= ╣
+this_direction= N this_cell= ╩
+direction:  E
+(nx,ny)=( 37 , 25 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 39 , 25 )
+grid[nx][ny]= ╩
+this_direction= E this_cell= ╩
+
+Popped (cx,cy)=( 39 , 25 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 39 , 24 )
+grid[nx][ny]= ╩
+this_direction= S this_cell= ╩
+direction:  S
+(nx,ny)=( 39 , 26 )
+grid[nx][ny]= ║
+this_direction= N this_cell= ╩
+direction:  E
+(nx,ny)=( 38 , 25 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 40 , 25 )
+grid[nx][ny]= ╩
+this_direction= E this_cell= ╩
+
+Popped (cx,cy)=( 40 , 25 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 40 , 24 )
+grid[nx][ny]= ╩
+this_direction= S this_cell= ╩
+direction:  S
+(nx,ny)=( 40 , 26 )
+grid[nx][ny]= ╩
+this_direction= N this_cell= ╩
+direction:  E
+(nx,ny)=( 39 , 25 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 41 , 25 )
+grid[nx][ny]= ╔
+this_direction= E this_cell= ╩
+
+Popped (cx,cy)=( 39 , 26 )
+grid[cx][cy]= ║
+direction:  N
+(nx,ny)=( 39 , 25 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 39 , 27 )
+grid[nx][ny]= ╦
+this_direction= N this_cell= ║
+direction:  E
+(nx,ny)=( 38 , 26 )
+grid[nx][ny]= ╣
+this_direction= W this_cell= ║
+direction:  W
+(nx,ny)=( 40 , 26 )
+grid[nx][ny]= ╩
+this_direction= E this_cell= ║
+
+Popped (cx,cy)=( 39 , 27 )
+grid[cx][cy]= ╦
+direction:  N
+(nx,ny)=( 39 , 26 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 39 , 28 )
+grid[nx][ny]= ╠
+this_direction= N this_cell= ╦
+direction:  E
+(nx,ny)=( 38 , 27 )
+grid[nx][ny]= ╩
+this_direction= W this_cell= ╦
+direction:  W
+(nx,ny)=( 40 , 27 )
+grid[nx][ny]= ╠
+this_direction= E this_cell= ╦
+
+Popped (cx,cy)=( 38 , 27 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 38 , 26 )
+grid[nx][ny]= ╣
+this_direction= S this_cell= ╩
+direction:  S
+(nx,ny)=( 38 , 28 )
+grid[nx][ny]= ╔
+this_direction= N this_cell= ╩
+direction:  E
+(nx,ny)=( 37 , 27 )
+grid[nx][ny]= ╣
+this_direction= W this_cell= ╩
+direction:  W
+(nx,ny)=( 39 , 27 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 38 , 28 )
+grid[cx][cy]= ╔
+direction:  N
+(nx,ny)=( 38 , 27 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 38 , 29 )
+grid[nx][ny]= ╦
+this_direction= N this_cell= ╔
+direction:  E
+(nx,ny)=( 37 , 28 )
+grid[nx][ny]= ═
+this_direction= W this_cell= ╔
+direction:  W
+(nx,ny)=( 39 , 28 )
+grid[nx][ny]= ╠
+this_direction= E this_cell= ╔
+
+Popped (cx,cy)=( 38 , 26 )
+grid[cx][cy]= ╣
+direction:  N
+(nx,ny)=( 38 , 25 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 38 , 27 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 37 , 26 )
+grid[nx][ny]= ╦
+this_direction= W this_cell= ╣
+direction:  W
+(nx,ny)=( 39 , 26 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 37 , 26 )
+grid[cx][cy]= ╦
+direction:  N
+(nx,ny)=( 37 , 25 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 37 , 27 )
+grid[nx][ny]= ╣
+this_direction= N this_cell= ╦
+direction:  E
+(nx,ny)=( 36 , 26 )
+grid[nx][ny]= ╦
+this_direction= W this_cell= ╦
+direction:  W
+(nx,ny)=( 38 , 26 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 36 , 26 )
+grid[cx][cy]= ╦
+direction:  N
+(nx,ny)=( 36 , 25 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 36 , 27 )
+grid[nx][ny]= ╦
+this_direction= N this_cell= ╦
+direction:  E
+(nx,ny)=( 35 , 26 )
+grid[nx][ny]= ╣
+this_direction= W this_cell= ╦
+direction:  W
+(nx,ny)=( 37 , 26 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 37 , 26 )
+grid[cx][cy]=  
+direction:  N
+(nx,ny)=( 37 , 25 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 37 , 27 )
+grid[nx][ny]= ╣
+this_direction= N this_cell=  
+direction:  E
+(nx,ny)=( 36 , 26 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 38 , 26 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 36 , 26 )
+grid[cx][cy]=  
+direction:  N
+(nx,ny)=( 36 , 25 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 36 , 27 )
+grid[nx][ny]= ╦
+this_direction= N this_cell=  
+direction:  E
+(nx,ny)=( 35 , 26 )
+grid[nx][ny]= ╣
+this_direction= W this_cell=  
+direction:  W
+(nx,ny)=( 37 , 26 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 35 , 23 )
+grid[cx][cy]= ╣
+direction:  N
+(nx,ny)=( 35 , 22 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 35 , 24 )
+grid[nx][ny]= ╠
+this_direction= N this_cell= ╣
+direction:  E
+(nx,ny)=( 34 , 23 )
+grid[nx][ny]= ╦
+this_direction= W this_cell= ╣
+direction:  W
+(nx,ny)=( 36 , 23 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 34 , 23 )
+grid[cx][cy]= ╦
+direction:  N
+(nx,ny)=( 34 , 22 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 34 , 24 )
+grid[nx][ny]= ╣
+this_direction= N this_cell= ╦
+direction:  E
+(nx,ny)=( 33 , 23 )
+grid[nx][ny]= ╣
+this_direction= W this_cell= ╦
+direction:  W
+(nx,ny)=( 35 , 23 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 35 , 24 )
+grid[cx][cy]= ╠
+direction:  N
+(nx,ny)=( 35 , 23 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 35 , 25 )
+grid[nx][ny]= ╣
+this_direction= N this_cell= ╠
+direction:  E
+(nx,ny)=( 34 , 24 )
+grid[nx][ny]= ╣
+this_direction= W this_cell= ╠
+direction:  W
+(nx,ny)=( 36 , 24 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 35 , 25 )
+grid[cx][cy]= ╣
+direction:  N
+(nx,ny)=( 35 , 24 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 35 , 26 )
+grid[nx][ny]= ╣
+this_direction= N this_cell= ╣
+direction:  E
+(nx,ny)=( 34 , 25 )
+grid[nx][ny]= ╣
+this_direction= W this_cell= ╣
+direction:  W
+(nx,ny)=( 36 , 25 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 35 , 26 )
+grid[cx][cy]= ╣
+direction:  N
+(nx,ny)=( 35 , 25 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 35 , 27 )
+grid[nx][ny]= ╠
+this_direction= N this_cell= ╣
+direction:  E
+(nx,ny)=( 34 , 26 )
+grid[nx][ny]= ╦
+this_direction= W this_cell= ╣
+direction:  W
+(nx,ny)=( 36 , 26 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 34 , 26 )
+grid[cx][cy]= ╦
+direction:  N
+(nx,ny)=( 34 , 25 )
+grid[nx][ny]= ╣
+this_direction= S this_cell= ╦
+direction:  S
+(nx,ny)=( 34 , 27 )
+grid[nx][ny]= ╩
+this_direction= N this_cell= ╦
+direction:  E
+(nx,ny)=( 33 , 26 )
+grid[nx][ny]= ╩
+this_direction= W this_cell= ╦
+direction:  W
+(nx,ny)=( 35 , 26 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 33 , 26 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 33 , 25 )
+grid[nx][ny]= ╦
+this_direction= S this_cell= ╩
+direction:  S
+(nx,ny)=( 33 , 27 )
+grid[nx][ny]= ╩
+this_direction= N this_cell= ╩
+direction:  E
+(nx,ny)=( 32 , 26 )
+grid[nx][ny]= ╚
+this_direction= W this_cell= ╩
+direction:  W
+(nx,ny)=( 34 , 26 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 32 , 26 )
+grid[cx][cy]= ╚
+direction:  N
+(nx,ny)=( 32 , 25 )
+grid[nx][ny]= ╠
+this_direction= S this_cell= ╚
+direction:  S
+(nx,ny)=( 32 , 27 )
+grid[nx][ny]= ╝
+this_direction= N this_cell= ╚
+direction:  E
+(nx,ny)=( 31 , 26 )
+grid[nx][ny]= ╩
+this_direction= W this_cell= ╚
+direction:  W
+(nx,ny)=( 33 , 26 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 34 , 25 )
+grid[cx][cy]= ╣
+direction:  N
+(nx,ny)=( 34 , 24 )
+grid[nx][ny]= ╣
+this_direction= S this_cell= ╣
+direction:  S
+(nx,ny)=( 34 , 26 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 33 , 25 )
+grid[nx][ny]= ╦
+this_direction= W this_cell= ╣
+direction:  W
+(nx,ny)=( 35 , 25 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 33 , 25 )
+grid[cx][cy]= ╦
+direction:  N
+(nx,ny)=( 33 , 24 )
+grid[nx][ny]= ╣
+this_direction= S this_cell= ╦
+direction:  S
+(nx,ny)=( 33 , 26 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 32 , 25 )
+grid[nx][ny]= ╠
+this_direction= W this_cell= ╦
+direction:  W
+(nx,ny)=( 34 , 25 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 32 , 25 )
+grid[cx][cy]= ╠
+direction:  N
+(nx,ny)=( 32 , 24 )
+grid[nx][ny]= ╦
+this_direction= S this_cell= ╠
+direction:  S
+(nx,ny)=( 32 , 26 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 31 , 25 )
+grid[nx][ny]= ╩
+this_direction= W this_cell= ╠
+direction:  W
+(nx,ny)=( 33 , 25 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 33 , 24 )
+grid[cx][cy]= ╣
+direction:  N
+(nx,ny)=( 33 , 23 )
+grid[nx][ny]= ╣
+this_direction= S this_cell= ╣
+direction:  S
+(nx,ny)=( 33 , 25 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 32 , 24 )
+grid[nx][ny]= ╦
+this_direction= W this_cell= ╣
+direction:  W
+(nx,ny)=( 34 , 24 )
+grid[nx][ny]= ╣
+this_direction= E this_cell= ╣
+
+Popped (cx,cy)=( 32 , 24 )
+grid[cx][cy]= ╦
+direction:  N
+(nx,ny)=( 32 , 23 )
+grid[nx][ny]= ╦
+this_direction= S this_cell= ╦
+direction:  S
+(nx,ny)=( 32 , 25 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 31 , 24 )
+grid[nx][ny]= ═
+this_direction= W this_cell= ╦
+direction:  W
+(nx,ny)=( 33 , 24 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 31 , 24 )
+grid[cx][cy]= ═
+direction:  N
+(nx,ny)=( 31 , 23 )
+grid[nx][ny]= ╣
+this_direction= S this_cell= ═
+direction:  S
+(nx,ny)=( 31 , 25 )
+grid[nx][ny]= ╩
+this_direction= N this_cell= ═
+direction:  E
+(nx,ny)=( 30 , 24 )
+grid[nx][ny]= ╦
+this_direction= W this_cell= ═
+direction:  W
+(nx,ny)=( 32 , 24 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 30 , 24 )
+grid[cx][cy]= ╦
+direction:  N
+(nx,ny)=( 30 , 23 )
+grid[nx][ny]= ╠
+this_direction= S this_cell= ╦
+direction:  S
+(nx,ny)=( 30 , 25 )
+grid[nx][ny]= ║
+this_direction= N this_cell= ╦
+direction:  E
+(nx,ny)=( 29 , 24 )
+grid[nx][ny]= ║
+this_direction= W this_cell= ╦
+direction:  W
+(nx,ny)=( 31 , 24 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 30 , 23 )
+grid[cx][cy]= ╠
+direction:  N
+(nx,ny)=( 30 , 22 )
+grid[nx][ny]= ╩
+this_direction= S this_cell= ╠
+direction:  S
+(nx,ny)=( 30 , 24 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 29 , 23 )
+grid[nx][ny]= ╦
+this_direction= W this_cell= ╠
+direction:  W
+(nx,ny)=( 31 , 23 )
+grid[nx][ny]= ╣
+this_direction= E this_cell= ╠
+
+Popped (cx,cy)=( 31 , 23 )
+grid[cx][cy]= ╣
+direction:  N
+(nx,ny)=( 31 , 22 )
+grid[nx][ny]= ║
+this_direction= S this_cell= ╣
+direction:  S
+(nx,ny)=( 31 , 24 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 30 , 23 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 32 , 23 )
+grid[nx][ny]= ╦
+this_direction= E this_cell= ╣
+
+Popped (cx,cy)=( 31 , 22 )
+grid[cx][cy]= ║
+direction:  N
+(nx,ny)=( 31 , 21 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 31 , 23 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 30 , 22 )
+grid[nx][ny]= ╩
+this_direction= W this_cell= ║
+direction:  W
+(nx,ny)=( 32 , 22 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 30 , 22 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 30 , 21 )
+grid[nx][ny]= ╩
+this_direction= S this_cell= ╩
+direction:  S
+(nx,ny)=( 30 , 23 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 29 , 22 )
+grid[nx][ny]= ╩
+this_direction= W this_cell= ╩
+direction:  W
+(nx,ny)=( 31 , 22 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 29 , 22 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 29 , 21 )
+grid[nx][ny]= ╠
+this_direction= S this_cell= ╩
+direction:  S
+(nx,ny)=( 29 , 23 )
+grid[nx][ny]= ╦
+this_direction= N this_cell= ╩
+direction:  E
+(nx,ny)=( 28 , 22 )
+grid[nx][ny]= ═
+this_direction= W this_cell= ╩
+direction:  W
+(nx,ny)=( 30 , 22 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 28 , 22 )
+grid[cx][cy]= ═
+direction:  N
+(nx,ny)=( 28 , 21 )
+grid[nx][ny]= ╣
+this_direction= S this_cell= ═
+direction:  S
+(nx,ny)=( 28 , 23 )
+grid[nx][ny]= ╠
+this_direction= N this_cell= ═
+direction:  E
+(nx,ny)=( 27 , 22 )
+grid[nx][ny]= ╣
+this_direction= W this_cell= ═
+direction:  W
+(nx,ny)=( 29 , 22 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 29 , 23 )
+grid[cx][cy]= ╦
+direction:  N
+(nx,ny)=( 29 , 22 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 29 , 24 )
+grid[nx][ny]= ║
+this_direction= N this_cell= ╦
+direction:  E
+(nx,ny)=( 28 , 23 )
+grid[nx][ny]= ╠
+this_direction= W this_cell= ╦
+direction:  W
+(nx,ny)=( 30 , 23 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 28 , 23 )
+grid[cx][cy]= ╠
+direction:  N
+(nx,ny)=( 28 , 22 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 28 , 24 )
+grid[nx][ny]= ╦
+this_direction= N this_cell= ╠
+direction:  E
+(nx,ny)=( 27 , 23 )
+grid[nx][ny]= ╠
+this_direction= W this_cell= ╠
+direction:  W
+(nx,ny)=( 29 , 23 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 28 , 24 )
+grid[cx][cy]= ╦
+direction:  N
+(nx,ny)=( 28 , 23 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 28 , 25 )
+grid[nx][ny]= ╦
+this_direction= N this_cell= ╦
+direction:  E
+(nx,ny)=( 27 , 24 )
+grid[nx][ny]= ╩
+this_direction= W this_cell= ╦
+direction:  W
+(nx,ny)=( 29 , 24 )
+grid[nx][ny]= ║
+this_direction= E this_cell= ╦
+
+Popped (cx,cy)=( 27 , 24 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 27 , 23 )
+grid[nx][ny]= ╠
+this_direction= S this_cell= ╩
+direction:  S
+(nx,ny)=( 27 , 25 )
+grid[nx][ny]= ╝
+this_direction= N this_cell= ╩
+direction:  E
+(nx,ny)=( 26 , 24 )
+grid[nx][ny]= ╩
+this_direction= W this_cell= ╩
+direction:  W
+(nx,ny)=( 28 , 24 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 26 , 24 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 26 , 23 )
+grid[nx][ny]= ╠
+this_direction= S this_cell= ╩
+direction:  S
+(nx,ny)=( 26 , 25 )
+grid[nx][ny]= ╦
+this_direction= N this_cell= ╩
+direction:  E
+(nx,ny)=( 25 , 24 )
+grid[nx][ny]= ╝
+this_direction= W this_cell= ╩
+direction:  W
+(nx,ny)=( 27 , 24 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 26 , 25 )
+grid[cx][cy]= ╦
+direction:  N
+(nx,ny)=( 26 , 24 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 26 , 26 )
+grid[nx][ny]= ╠
+this_direction= N this_cell= ╦
+direction:  E
+(nx,ny)=( 25 , 25 )
+grid[nx][ny]= ╣
+this_direction= W this_cell= ╦
+direction:  W
+(nx,ny)=( 27 , 25 )
+grid[nx][ny]= ╝
+this_direction= E this_cell= ╦
+
+Popped (cx,cy)=( 27 , 25 )
+grid[cx][cy]= ╝
+direction:  N
+(nx,ny)=( 27 , 24 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 27 , 26 )
+grid[nx][ny]= ╦
+this_direction= N this_cell= ╝
+direction:  E
+(nx,ny)=( 26 , 25 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 28 , 25 )
+grid[nx][ny]= ╦
+this_direction= E this_cell= ╝
+
+Popped (cx,cy)=( 27 , 26 )
+grid[cx][cy]= ╦
+direction:  N
+(nx,ny)=( 27 , 25 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 27 , 27 )
+grid[nx][ny]= ╠
+this_direction= N this_cell= ╦
+direction:  E
+(nx,ny)=( 26 , 26 )
+grid[nx][ny]= ╠
+this_direction= W this_cell= ╦
+direction:  W
+(nx,ny)=( 28 , 26 )
+grid[nx][ny]= ═
+this_direction= E this_cell= ╦
+
+Popped (cx,cy)=( 28 , 26 )
+grid[cx][cy]= ═
+direction:  N
+(nx,ny)=( 28 , 25 )
+grid[nx][ny]= ╦
+this_direction= S this_cell= ═
+direction:  S
+(nx,ny)=( 28 , 27 )
+grid[nx][ny]= ═
+this_direction= N this_cell= ═
+direction:  E
+(nx,ny)=( 27 , 26 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 29 , 26 )
+grid[nx][ny]= ╠
+this_direction= E this_cell= ═
+
+Popped (cx,cy)=( 26 , 26 )
+grid[cx][cy]= ╠
+direction:  N
+(nx,ny)=( 26 , 25 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 26 , 27 )
+grid[nx][ny]= ╦
+this_direction= N this_cell= ╠
+direction:  E
+(nx,ny)=( 25 , 26 )
+grid[nx][ny]= ╠
+this_direction= W this_cell= ╠
+direction:  W
+(nx,ny)=( 27 , 26 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 26 , 27 )
+grid[cx][cy]= ╦
+direction:  N
+(nx,ny)=( 26 , 26 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 26 , 28 )
+grid[nx][ny]= ╦
+this_direction= N this_cell= ╦
+direction:  E
+(nx,ny)=( 25 , 27 )
+grid[nx][ny]= ╠
+this_direction= W this_cell= ╦
+direction:  W
+(nx,ny)=( 27 , 27 )
+grid[nx][ny]= ╠
+this_direction= E this_cell= ╦
+
+Popped (cx,cy)=( 25 , 27 )
+grid[cx][cy]= ╠
+direction:  N
+(nx,ny)=( 25 , 26 )
+grid[nx][ny]= ╠
+this_direction= S this_cell= ╠
+direction:  S
+(nx,ny)=( 25 , 28 )
+grid[nx][ny]= ╣
+this_direction= N this_cell= ╠
+direction:  E
+(nx,ny)=( 24 , 27 )
+grid[nx][ny]= ╣
+this_direction= W this_cell= ╠
+direction:  W
+(nx,ny)=( 26 , 27 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 25 , 28 )
+grid[cx][cy]= ╣
+direction:  N
+(nx,ny)=( 25 , 27 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 25 , 29 )
+grid[nx][ny]= ╦
+this_direction= N this_cell= ╣
+direction:  E
+(nx,ny)=( 24 , 28 )
+grid[nx][ny]= ╠
+this_direction= W this_cell= ╣
+direction:  W
+(nx,ny)=( 26 , 28 )
+grid[nx][ny]= ╦
+this_direction= E this_cell= ╣
+
+Popped (cx,cy)=( 24 , 28 )
+grid[cx][cy]= ╠
+direction:  N
+(nx,ny)=( 24 , 27 )
+grid[nx][ny]= ╣
+this_direction= S this_cell= ╠
+direction:  S
+(nx,ny)=( 24 , 29 )
+grid[nx][ny]= ╩
+this_direction= N this_cell= ╠
+direction:  E
+(nx,ny)=( 23 , 28 )
+grid[nx][ny]= ╣
+this_direction= W this_cell= ╠
+direction:  W
+(nx,ny)=( 25 , 28 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 24 , 27 )
+grid[cx][cy]= ╣
+direction:  N
+(nx,ny)=( 24 , 26 )
+grid[nx][ny]= ╩
+this_direction= S this_cell= ╣
+direction:  S
+(nx,ny)=( 24 , 28 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 23 , 27 )
+grid[nx][ny]= ╣
+this_direction= W this_cell= ╣
+direction:  W
+(nx,ny)=( 25 , 27 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 24 , 26 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 24 , 25 )
+grid[nx][ny]= ╣
+this_direction= S this_cell= ╩
+direction:  S
+(nx,ny)=( 24 , 27 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 23 , 26 )
+grid[nx][ny]= ╣
+this_direction= W this_cell= ╩
+direction:  W
+(nx,ny)=( 25 , 26 )
+grid[nx][ny]= ╠
+this_direction= E this_cell= ╩
+
+Popped (cx,cy)=( 25 , 29 )
+grid[cx][cy]= ╦
+direction:  N
+(nx,ny)=( 25 , 28 )
+grid[nx][ny]=  
+direction:  S
+direction:  E
+(nx,ny)=( 24 , 29 )
+grid[nx][ny]= ╩
+this_direction= W this_cell= ╦
+direction:  W
+(nx,ny)=( 26 , 29 )
+grid[nx][ny]= ╩
+this_direction= E this_cell= ╦
+
+Popped (cx,cy)=( 26 , 29 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 26 , 28 )
+grid[nx][ny]= ╦
+this_direction= S this_cell= ╩
+direction:  S
+direction:  E
+(nx,ny)=( 25 , 29 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 27 , 29 )
+grid[nx][ny]= ╦
+this_direction= E this_cell= ╩
+
+Popped (cx,cy)=( 27 , 29 )
+grid[cx][cy]= ╦
+direction:  N
+(nx,ny)=( 27 , 28 )
+grid[nx][ny]= ╣
+this_direction= S this_cell= ╦
+direction:  S
+direction:  E
+(nx,ny)=( 26 , 29 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 28 , 29 )
+grid[nx][ny]= ╦
+this_direction= E this_cell= ╦
+
+Popped (cx,cy)=( 28 , 29 )
+grid[cx][cy]= ╦
+direction:  N
+(nx,ny)=( 28 , 28 )
+grid[nx][ny]= ╦
+this_direction= S this_cell= ╦
+direction:  S
+direction:  E
+(nx,ny)=( 27 , 29 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 29 , 29 )
+grid[nx][ny]= ╠
+this_direction= E this_cell= ╦
+
+Popped (cx,cy)=( 27 , 28 )
+grid[cx][cy]= ╣
+direction:  N
+(nx,ny)=( 27 , 27 )
+grid[nx][ny]= ╠
+this_direction= S this_cell= ╣
+direction:  S
+(nx,ny)=( 27 , 29 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 26 , 28 )
+grid[nx][ny]= ╦
+this_direction= W this_cell= ╣
+direction:  W
+(nx,ny)=( 28 , 28 )
+grid[nx][ny]= ╦
+this_direction= E this_cell= ╣
+
+Popped (cx,cy)=( 26 , 28 )
+grid[cx][cy]= ╦
+direction:  N
+(nx,ny)=( 26 , 27 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 26 , 29 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 25 , 28 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 27 , 28 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 27 , 27 )
+grid[cx][cy]= ╠
+direction:  N
+(nx,ny)=( 27 , 26 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 27 , 28 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 26 , 27 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 28 , 27 )
+grid[nx][ny]= ═
+this_direction= E this_cell= ╠
+
+Popped (cx,cy)=( 28 , 27 )
+grid[cx][cy]= ═
+direction:  N
+(nx,ny)=( 28 , 26 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 28 , 28 )
+grid[nx][ny]= ╦
+this_direction= N this_cell= ═
+direction:  E
+(nx,ny)=( 27 , 27 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 29 , 27 )
+grid[nx][ny]= ╗
+this_direction= E this_cell= ═
+
+Popped (cx,cy)=( 29 , 27 )
+grid[cx][cy]= ╗
+direction:  N
+(nx,ny)=( 29 , 26 )
+grid[nx][ny]= ╠
+this_direction= S this_cell= ╗
+direction:  S
+(nx,ny)=( 29 , 28 )
+grid[nx][ny]= ╣
+this_direction= N this_cell= ╗
+direction:  E
+(nx,ny)=( 28 , 27 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 30 , 27 )
+grid[nx][ny]= ╠
+this_direction= E this_cell= ╗
+
+Popped (cx,cy)=( 29 , 26 )
+grid[cx][cy]= ╠
+direction:  N
+(nx,ny)=( 29 , 25 )
+grid[nx][ny]= ╠
+this_direction= S this_cell= ╠
+direction:  S
+(nx,ny)=( 29 , 27 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 28 , 26 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 30 , 26 )
+grid[nx][ny]= ╦
+this_direction= E this_cell= ╠
+
+Popped (cx,cy)=( 30 , 26 )
+grid[cx][cy]= ╦
+direction:  N
+(nx,ny)=( 30 , 25 )
+grid[nx][ny]= ║
+this_direction= S this_cell= ╦
+direction:  S
+(nx,ny)=( 30 , 27 )
+grid[nx][ny]= ╠
+this_direction= N this_cell= ╦
+direction:  E
+(nx,ny)=( 29 , 26 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 31 , 26 )
+grid[nx][ny]= ╩
+this_direction= E this_cell= ╦
+
+Popped (cx,cy)=( 31 , 26 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 31 , 25 )
+grid[nx][ny]= ╩
+this_direction= S this_cell= ╩
+direction:  S
+(nx,ny)=( 31 , 27 )
+grid[nx][ny]= ╠
+this_direction= N this_cell= ╩
+direction:  E
+(nx,ny)=( 30 , 26 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 32 , 26 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 31 , 27 )
+grid[cx][cy]= ╠
+direction:  N
+(nx,ny)=( 31 , 26 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 31 , 28 )
+grid[nx][ny]= ╝
+this_direction= N this_cell= ╠
+direction:  E
+(nx,ny)=( 30 , 27 )
+grid[nx][ny]= ╠
+this_direction= W this_cell= ╠
+direction:  W
+(nx,ny)=( 32 , 27 )
+grid[nx][ny]= ╝
+this_direction= E this_cell= ╠
+
+Popped (cx,cy)=( 32 , 27 )
+grid[cx][cy]= ╝
+direction:  N
+(nx,ny)=( 32 , 26 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 32 , 28 )
+grid[nx][ny]= ╣
+this_direction= N this_cell= ╝
+direction:  E
+(nx,ny)=( 31 , 27 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 33 , 27 )
+grid[nx][ny]= ╩
+this_direction= E this_cell= ╝
+
+Popped (cx,cy)=( 32 , 28 )
+grid[cx][cy]= ╣
+direction:  N
+(nx,ny)=( 32 , 27 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 32 , 29 )
+grid[nx][ny]= ╠
+this_direction= N this_cell= ╣
+direction:  E
+(nx,ny)=( 31 , 28 )
+grid[nx][ny]= ╝
+this_direction= W this_cell= ╣
+direction:  W
+(nx,ny)=( 33 , 28 )
+grid[nx][ny]= ═
+this_direction= E this_cell= ╣
+
+Popped (cx,cy)=( 32 , 29 )
+grid[cx][cy]= ╠
+direction:  N
+(nx,ny)=( 32 , 28 )
+grid[nx][ny]=  
+direction:  S
+direction:  E
+(nx,ny)=( 31 , 29 )
+grid[nx][ny]= ╦
+this_direction= W this_cell= ╠
+direction:  W
+(nx,ny)=( 33 , 29 )
+grid[nx][ny]= ╦
+this_direction= E this_cell= ╠
+
+Popped (cx,cy)=( 33 , 29 )
+grid[cx][cy]= ╦
+direction:  N
+(nx,ny)=( 33 , 28 )
+grid[nx][ny]= ═
+this_direction= S this_cell= ╦
+direction:  S
+direction:  E
+(nx,ny)=( 32 , 29 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 34 , 29 )
+grid[nx][ny]= ╦
+this_direction= E this_cell= ╦
+
+Popped (cx,cy)=( 34 , 29 )
+grid[cx][cy]= ╦
+direction:  N
+(nx,ny)=( 34 , 28 )
+grid[nx][ny]= ╠
+this_direction= S this_cell= ╦
+direction:  S
+direction:  E
+(nx,ny)=( 33 , 29 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 35 , 29 )
+grid[nx][ny]= ╩
+this_direction= E this_cell= ╦
+
+Popped (cx,cy)=( 35 , 29 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 35 , 28 )
+grid[nx][ny]= ╣
+this_direction= S this_cell= ╩
+direction:  S
+direction:  E
+(nx,ny)=( 34 , 29 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 36 , 29 )
+grid[nx][ny]= ═
+this_direction= E this_cell= ╩
+
+Popped (cx,cy)=( 36 , 29 )
+grid[cx][cy]= ═
+direction:  N
+(nx,ny)=( 36 , 28 )
+grid[nx][ny]= ╠
+this_direction= S this_cell= ═
+direction:  S
+direction:  E
+(nx,ny)=( 35 , 29 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 37 , 29 )
+grid[nx][ny]= ╣
+this_direction= E this_cell= ═
+
+Popped (cx,cy)=( 37 , 29 )
+grid[cx][cy]= ╣
+direction:  N
+(nx,ny)=( 37 , 28 )
+grid[nx][ny]= ═
+this_direction= S this_cell= ╣
+direction:  S
+direction:  E
+(nx,ny)=( 36 , 29 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 38 , 29 )
+grid[nx][ny]= ╦
+this_direction= E this_cell= ╣
+
+Popped (cx,cy)=( 34 , 28 )
+grid[cx][cy]= ╠
+direction:  N
+(nx,ny)=( 34 , 27 )
+grid[nx][ny]= ╩
+this_direction= S this_cell= ╠
+direction:  S
+(nx,ny)=( 34 , 29 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 33 , 28 )
+grid[nx][ny]= ═
+this_direction= W this_cell= ╠
+direction:  W
+(nx,ny)=( 35 , 28 )
+grid[nx][ny]= ╣
+this_direction= E this_cell= ╠
+
+Popped (cx,cy)=( 35 , 28 )
+grid[cx][cy]= ╣
+direction:  N
+(nx,ny)=( 35 , 27 )
+grid[nx][ny]= ╠
+this_direction= S this_cell= ╣
+direction:  S
+(nx,ny)=( 35 , 29 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 34 , 28 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 36 , 28 )
+grid[nx][ny]= ╠
+this_direction= E this_cell= ╣
+
+Popped (cx,cy)=( 35 , 27 )
+grid[cx][cy]= ╠
+direction:  N
+(nx,ny)=( 35 , 26 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 35 , 28 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 34 , 27 )
+grid[nx][ny]= ╩
+this_direction= W this_cell= ╠
+direction:  W
+(nx,ny)=( 36 , 27 )
+grid[nx][ny]= ╦
+this_direction= E this_cell= ╠
+
+Popped (cx,cy)=( 36 , 27 )
+grid[cx][cy]= ╦
+direction:  N
+(nx,ny)=( 36 , 26 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 36 , 28 )
+grid[nx][ny]= ╠
+this_direction= N this_cell= ╦
+direction:  E
+(nx,ny)=( 35 , 27 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 37 , 27 )
+grid[nx][ny]= ╣
+this_direction= E this_cell= ╦
+
+Popped (cx,cy)=( 37 , 27 )
+grid[cx][cy]= ╣
+direction:  N
+(nx,ny)=( 37 , 26 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 37 , 28 )
+grid[nx][ny]= ═
+this_direction= N this_cell= ╣
+direction:  E
+(nx,ny)=( 36 , 27 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 38 , 27 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 34 , 27 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 34 , 26 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 34 , 28 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 33 , 27 )
+grid[nx][ny]= ╩
+this_direction= W this_cell= ╩
+direction:  W
+(nx,ny)=( 35 , 27 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 33 , 27 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 33 , 26 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 33 , 28 )
+grid[nx][ny]= ═
+this_direction= N this_cell= ╩
+direction:  E
+(nx,ny)=( 32 , 27 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 34 , 27 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 30 , 25 )
+grid[cx][cy]= ║
+direction:  N
+(nx,ny)=( 30 , 24 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 30 , 26 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 29 , 25 )
+grid[nx][ny]= ╠
+this_direction= W this_cell= ║
+direction:  W
+(nx,ny)=( 31 , 25 )
+grid[nx][ny]= ╩
+this_direction= E this_cell= ║
+
+Popped (cx,cy)=( 29 , 25 )
+grid[cx][cy]= ╠
+direction:  N
+(nx,ny)=( 29 , 24 )
+grid[nx][ny]= ║
+this_direction= S this_cell= ╠
+direction:  S
+(nx,ny)=( 29 , 26 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 28 , 25 )
+grid[nx][ny]= ╦
+this_direction= W this_cell= ╠
+direction:  W
+(nx,ny)=( 30 , 25 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 29 , 24 )
+grid[cx][cy]= ║
+direction:  N
+(nx,ny)=( 29 , 23 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 29 , 25 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 28 , 24 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 30 , 24 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 24 , 29 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 24 , 28 )
+grid[nx][ny]=  
+direction:  S
+direction:  E
+(nx,ny)=( 23 , 29 )
+grid[nx][ny]= ╩
+this_direction= W this_cell= ╩
+direction:  W
+(nx,ny)=( 25 , 29 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 23 , 29 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 23 , 28 )
+grid[nx][ny]= ╣
+this_direction= S this_cell= ╩
+direction:  S
+direction:  E
+(nx,ny)=( 22 , 29 )
+grid[nx][ny]= ╩
+this_direction= W this_cell= ╩
+direction:  W
+(nx,ny)=( 24 , 29 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 22 , 29 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 22 , 28 )
+grid[nx][ny]= ╩
+this_direction= S this_cell= ╩
+direction:  S
+direction:  E
+(nx,ny)=( 21 , 29 )
+grid[nx][ny]= ╣
+this_direction= W this_cell= ╩
+direction:  W
+(nx,ny)=( 23 , 29 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 25 , 26 )
+grid[cx][cy]= ╠
+direction:  N
+(nx,ny)=( 25 , 25 )
+grid[nx][ny]= ╣
+this_direction= S this_cell= ╠
+direction:  S
+(nx,ny)=( 25 , 27 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 24 , 26 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 26 , 26 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 25 , 25 )
+grid[cx][cy]= ╣
+direction:  N
+(nx,ny)=( 25 , 24 )
+grid[nx][ny]= ╝
+this_direction= S this_cell= ╣
+direction:  S
+(nx,ny)=( 25 , 26 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 24 , 25 )
+grid[nx][ny]= ╣
+this_direction= W this_cell= ╣
+direction:  W
+(nx,ny)=( 26 , 25 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 25 , 24 )
+grid[cx][cy]= ╝
+direction:  N
+(nx,ny)=( 25 , 23 )
+grid[nx][ny]= ╚
+this_direction= S this_cell= ╝
+direction:  S
+(nx,ny)=( 25 , 25 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 24 , 24 )
+grid[nx][ny]= ╗
+this_direction= W this_cell= ╝
+direction:  W
+(nx,ny)=( 26 , 24 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 33 , 23 )
+grid[cx][cy]= ╣
+direction:  N
+(nx,ny)=( 33 , 22 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 33 , 24 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 32 , 23 )
+grid[nx][ny]= ╦
+this_direction= W this_cell= ╣
+direction:  W
+(nx,ny)=( 34 , 23 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 32 , 23 )
+grid[cx][cy]= ╦
+direction:  N
+(nx,ny)=( 32 , 22 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 32 , 24 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 31 , 23 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 33 , 23 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 34 , 24 )
+grid[cx][cy]= ╣
+direction:  N
+(nx,ny)=( 34 , 23 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 34 , 25 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 33 , 24 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 35 , 24 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 35 , 27 )
+grid[cx][cy]=  
+direction:  N
+(nx,ny)=( 35 , 26 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 35 , 28 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 34 , 27 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 36 , 27 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 33 , 23 )
+grid[cx][cy]=  
+direction:  N
+(nx,ny)=( 33 , 22 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 33 , 24 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 32 , 23 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 34 , 23 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 30 , 21 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 30 , 20 )
+grid[nx][ny]= ╣
+this_direction= S this_cell= ╩
+direction:  S
+(nx,ny)=( 30 , 22 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 29 , 21 )
+grid[nx][ny]= ╠
+this_direction= W this_cell= ╩
+direction:  W
+(nx,ny)=( 31 , 21 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 29 , 21 )
+grid[cx][cy]= ╠
+direction:  N
+(nx,ny)=( 29 , 20 )
+grid[nx][ny]= ╩
+this_direction= S this_cell= ╠
+direction:  S
+(nx,ny)=( 29 , 22 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 28 , 21 )
+grid[nx][ny]= ╣
+this_direction= W this_cell= ╠
+direction:  W
+(nx,ny)=( 30 , 21 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 29 , 20 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 29 , 19 )
+grid[nx][ny]= ╩
+this_direction= S this_cell= ╩
+direction:  S
+(nx,ny)=( 29 , 21 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 28 , 20 )
+grid[nx][ny]= ╦
+this_direction= W this_cell= ╩
+direction:  W
+(nx,ny)=( 30 , 20 )
+grid[nx][ny]= ╣
+this_direction= E this_cell= ╩
+
+Popped (cx,cy)=( 30 , 20 )
+grid[cx][cy]= ╣
+direction:  N
+(nx,ny)=( 30 , 19 )
+grid[nx][ny]= ╩
+this_direction= S this_cell= ╣
+direction:  S
+(nx,ny)=( 30 , 21 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 29 , 20 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 31 , 20 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 30 , 19 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 30 , 18 )
+grid[nx][ny]= C
+direction:  S
+(nx,ny)=( 30 , 20 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 29 , 19 )
+grid[nx][ny]= ╩
+this_direction= W this_cell= ╩
+direction:  W
+(nx,ny)=( 31 , 19 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 29 , 19 )
+grid[cx][cy]= ╩
+direction:  N
+(nx,ny)=( 29 , 18 )
+grid[nx][ny]= ╚
+this_direction= S this_cell= ╩
+direction:  S
+(nx,ny)=( 29 , 20 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 28 , 19 )
+grid[nx][ny]= ═
+this_direction= W this_cell= ╩
+direction:  W
+(nx,ny)=( 30 , 19 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 28 , 19 )
+grid[cx][cy]= ═
+direction:  N
+(nx,ny)=( 28 , 18 )
+grid[nx][ny]= ╣
+this_direction= S this_cell= ═
+direction:  S
+(nx,ny)=( 28 , 20 )
+grid[nx][ny]= ╦
+this_direction= N this_cell= ═
+direction:  E
+(nx,ny)=( 27 , 19 )
+grid[nx][ny]= ║
+this_direction= W this_cell= ═
+direction:  W
+(nx,ny)=( 29 , 19 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 28 , 20 )
+grid[cx][cy]= ╦
+direction:  N
+(nx,ny)=( 28 , 19 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 28 , 21 )
+grid[nx][ny]= ╣
+this_direction= N this_cell= ╦
+direction:  E
+(nx,ny)=( 27 , 20 )
+grid[nx][ny]= ╦
+this_direction= W this_cell= ╦
+direction:  W
+(nx,ny)=( 29 , 20 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 27 , 20 )
+grid[cx][cy]= ╦
+direction:  N
+(nx,ny)=( 27 , 19 )
+grid[nx][ny]= ║
+this_direction= S this_cell= ╦
+direction:  S
+(nx,ny)=( 27 , 21 )
+grid[nx][ny]= ╣
+this_direction= N this_cell= ╦
+direction:  E
+(nx,ny)=( 26 , 20 )
+grid[nx][ny]= ╚
+this_direction= W this_cell= ╦
+direction:  W
+(nx,ny)=( 28 , 20 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 26 , 20 )
+grid[cx][cy]= ╚
+direction:  N
+(nx,ny)=( 26 , 19 )
+grid[nx][ny]= ╣
+this_direction= S this_cell= ╚
+direction:  S
+(nx,ny)=( 26 , 21 )
+grid[nx][ny]= ╦
+this_direction= N this_cell= ╚
+direction:  E
+(nx,ny)=( 25 , 20 )
+grid[nx][ny]= ╩
+this_direction= W this_cell= ╚
+direction:  W
+(nx,ny)=( 27 , 20 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 26 , 21 )
+grid[cx][cy]= ╦
+direction:  N
+(nx,ny)=( 26 , 20 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 26 , 22 )
+grid[nx][ny]= ╠
+this_direction= N this_cell= ╦
+direction:  E
+(nx,ny)=( 25 , 21 )
+grid[nx][ny]= ╣
+this_direction= W this_cell= ╦
+direction:  W
+(nx,ny)=( 27 , 21 )
+grid[nx][ny]= ╣
+this_direction= E this_cell= ╦
+
+Popped (cx,cy)=( 27 , 21 )
+grid[cx][cy]= ╣
+direction:  N
+(nx,ny)=( 27 , 20 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 27 , 22 )
+grid[nx][ny]= ╣
+this_direction= N this_cell= ╣
+direction:  E
+(nx,ny)=( 26 , 21 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 28 , 21 )
+grid[nx][ny]= ╣
+this_direction= E this_cell= ╣
+
+Popped (cx,cy)=( 27 , 22 )
+grid[cx][cy]= ╣
+direction:  N
+(nx,ny)=( 27 , 21 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 27 , 23 )
+grid[nx][ny]= ╠
+this_direction= N this_cell= ╣
+direction:  E
+(nx,ny)=( 26 , 22 )
+grid[nx][ny]= ╠
+this_direction= W this_cell= ╣
+direction:  W
+(nx,ny)=( 28 , 22 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 26 , 22 )
+grid[cx][cy]= ╠
+direction:  N
+(nx,ny)=( 26 , 21 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 26 , 23 )
+grid[nx][ny]= ╠
+this_direction= N this_cell= ╠
+direction:  E
+(nx,ny)=( 25 , 22 )
+grid[nx][ny]= ╦
+this_direction= W this_cell= ╠
+direction:  W
+(nx,ny)=( 27 , 22 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 26 , 23 )
+grid[cx][cy]= ╠
+direction:  N
+(nx,ny)=( 26 , 22 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 26 , 24 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 25 , 23 )
+grid[nx][ny]= ╚
+this_direction= W this_cell= ╠
+direction:  W
+(nx,ny)=( 27 , 23 )
+grid[nx][ny]= ╠
+this_direction= E this_cell= ╠
+
+Popped (cx,cy)=( 27 , 23 )
+grid[cx][cy]= ╠
+direction:  N
+(nx,ny)=( 27 , 22 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 27 , 24 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 26 , 23 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 28 , 23 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 27 , 19 )
+grid[cx][cy]= ║
+direction:  N
+(nx,ny)=( 27 , 18 )
+grid[nx][ny]= ╦
+this_direction= S this_cell= ║
+direction:  S
+(nx,ny)=( 27 , 20 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 26 , 19 )
+grid[nx][ny]= ╣
+this_direction= W this_cell= ║
+direction:  W
+(nx,ny)=( 28 , 19 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 34 , 18 )
+grid[cx][cy]=  
+direction:  N
+(nx,ny)=( 34 , 17 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 34 , 19 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 33 , 18 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 35 , 18 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 34 , 16 )
+grid[cx][cy]= ╝
+direction:  N
+(nx,ny)=( 34 , 15 )
+grid[nx][ny]= ╩
+this_direction= S this_cell= ╝
+direction:  S
+(nx,ny)=( 34 , 17 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 33 , 16 )
+grid[nx][ny]= ╣
+this_direction= W this_cell= ╝
+direction:  W
+(nx,ny)=( 35 , 16 )
+grid[nx][ny]=  
+AC
+​
