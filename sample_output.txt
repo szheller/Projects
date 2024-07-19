@@ -1,0 +1,113 @@
+max_x= 6
+max_y= 3
+source_pos= (0, 2)
+sinks= [('C', 1, 0), ('B', 5, 0), ('A', 5, 2)]
+  : 0 1 2 3 4 5 
+ 2: * ╣   ╔ ═ A 
+ 1:   ╠ ═ ╝     
+ 0:   C   ╚ ═ B 
+[(0, 2)]
+
+Popped (cx,cy)=( 0 , 2 )
+grid[cx][cy]= *
+direction:  N
+(nx,ny)=( 0 , 1 )
+grid[nx][ny]=  
+direction:  S
+direction:  E
+direction:  W
+(nx,ny)=( 1 , 2 )
+grid[nx][ny]= ╣
+this_direction= E this_cell= *
+
+Popped (cx,cy)=( 1 , 2 )
+grid[cx][cy]= ╣
+direction:  N
+(nx,ny)=( 1 , 1 )
+grid[nx][ny]= ╠
+this_direction= S this_cell= ╣
+direction:  S
+direction:  E
+(nx,ny)=( 0 , 2 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 2 , 2 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 1 , 1 )
+grid[cx][cy]= ╠
+direction:  N
+(nx,ny)=( 1 , 0 )
+grid[nx][ny]= C
+direction:  S
+(nx,ny)=( 1 , 2 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 0 , 1 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 2 , 1 )
+grid[nx][ny]= ═
+this_direction= E this_cell= ╠
+
+Popped (cx,cy)=( 2 , 1 )
+grid[cx][cy]= ═
+direction:  N
+(nx,ny)=( 2 , 0 )
+grid[nx][ny]=  
+direction:  S
+(nx,ny)=( 2 , 2 )
+grid[nx][ny]=  
+direction:  E
+(nx,ny)=( 1 , 1 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 3 , 1 )
+grid[nx][ny]= ╝
+this_direction= E this_cell= ═
+
+Popped (cx,cy)=( 3 , 1 )
+grid[cx][cy]= ╝
+direction:  N
+(nx,ny)=( 3 , 0 )
+grid[nx][ny]= ╚
+this_direction= S this_cell= ╝
+direction:  S
+(nx,ny)=( 3 , 2 )
+grid[nx][ny]= ╔
+this_direction= N this_cell= ╝
+direction:  E
+(nx,ny)=( 2 , 1 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 4 , 1 )
+grid[nx][ny]=  
+
+Popped (cx,cy)=( 3 , 2 )
+grid[cx][cy]= ╔
+direction:  N
+(nx,ny)=( 3 , 1 )
+grid[nx][ny]=  
+direction:  S
+direction:  E
+(nx,ny)=( 2 , 2 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 4 , 2 )
+grid[nx][ny]= ═
+this_direction= E this_cell= ╔
+
+Popped (cx,cy)=( 4 , 2 )
+grid[cx][cy]= ═
+direction:  N
+(nx,ny)=( 4 , 1 )
+grid[nx][ny]=  
+direction:  S
+direction:  E
+(nx,ny)=( 3 , 2 )
+grid[nx][ny]=  
+direction:  W
+(nx,ny)=( 5 , 2 )
+grid[nx][ny]= A
+AC
+​
